@@ -21,4 +21,5 @@ def join_nested_strings(src)
         row += 1
     end
   final_string.rstrip
+  # I am using .rstrip to remove the last white space
 end 
