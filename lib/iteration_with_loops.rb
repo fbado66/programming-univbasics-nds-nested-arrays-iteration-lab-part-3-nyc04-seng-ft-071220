@@ -8,7 +8,7 @@ def join_nested_strings(src)
 #   ["studied", 101, 233, "Ruby"]
 # ]
   
-  final_result = 0
+  final_result = ""
   row = 0 
     while row < src.count do 
       index_element = 0 
