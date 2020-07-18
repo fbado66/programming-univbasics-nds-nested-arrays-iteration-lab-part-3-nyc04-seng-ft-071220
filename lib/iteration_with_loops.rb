@@ -8,17 +8,20 @@ def join_nested_strings(src)
 #   ["studied", 101, 233, "Ruby"]
 # ]
   
+  final_result = 0
   row = 0 
     while row < src.count do 
-      final_result = ""
       index_element = 0 
-      while index_element <src[row].length do
+      while index_element < src[row].length do
         if src[row][index_element].class == String 
-          final_result = src[row][index_element] 
-          index_element += 1
+          final_result += src[row][index_element] 
         end 
-        row += 1
+                  index_element += 1
+
       end 
-      final_result 
+              row += 1
+
     end
+          final_result 
+
 end 
