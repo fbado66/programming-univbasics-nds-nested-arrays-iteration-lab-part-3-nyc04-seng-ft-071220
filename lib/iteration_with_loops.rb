@@ -20,5 +20,5 @@ def join_nested_strings(src)
         end 
         row += 1
     end
-  final_string.trim()
+  final_string.rstrip
 end 
