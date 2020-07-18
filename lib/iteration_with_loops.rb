@@ -20,5 +20,6 @@ def join_nested_strings(src)
         end 
         row += 1
     end
-  final_result.delete[-1]
+  final_result.pop
+  final_result
 end 
